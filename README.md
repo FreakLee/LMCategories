@@ -1,2 +1,4 @@
 # LMCategories
-学习及工作过程中总结和收集的一些好用的Objective-C Category
+学习过程中总结的一些好用的Objective-C Category
+
+1、添加扩大按钮响应区域的Category
