@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E87D7527202BE5C800BF995D /* UIButton+LMHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D7526202BE5C800BF995D /* UIButton+LMHitTestEdgeInsets.m */; };
 		E8971B3F1D867CAF00B54775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8971B3E1D867CAF00B54775 /* main.m */; };
 		E8971B421D867CAF00B54775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8971B411D867CAF00B54775 /* AppDelegate.m */; };
 		E8971B481D867CAF00B54775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8971B461D867CAF00B54775 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E87D7525202BE5C800BF995D /* UIButton+LMHitTestEdgeInsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+LMHitTestEdgeInsets.h"; path = "../Categories/UIButton/UIButton+LMHitTestEdgeInsets.h"; sourceTree = "<group>"; };
+		E87D7526202BE5C800BF995D /* UIButton+LMHitTestEdgeInsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LMHitTestEdgeInsets.m"; path = "../Categories/UIButton/UIButton+LMHitTestEdgeInsets.m"; sourceTree = "<group>"; };
 		E8971B3A1D867CAF00B54775 /* MyiOSCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyiOSCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8971B3E1D867CAF00B54775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8971B401D867CAF00B54775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E87D7524202BE57C00BF995D /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				E87D7525202BE5C800BF995D /* UIButton+LMHitTestEdgeInsets.h */,
+				E87D7526202BE5C800BF995D /* UIButton+LMHitTestEdgeInsets.m */,
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
 		E8971B311D867CAF00B54775 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 		E8971B561D867D4700B54775 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E87D7524202BE57C00BF995D /* UIButton */,
 				E8971B581D867D7000B54775 /* UIView */,
 			);
 			name = UIKit;
@@ -194,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87D7527202BE5C800BF995D /* UIButton+LMHitTestEdgeInsets.m in Sources */,
 				E8971B641D8689E000B54775 /* UIView+LMExtension.m in Sources */,
 				E8971B421D867CAF00B54775 /* AppDelegate.m in Sources */,
 				E8971B3F1D867CAF00B54775 /* main.m in Sources */,
@@ -346,6 +360,7 @@
 				E8971B531D867CAF00B54775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
