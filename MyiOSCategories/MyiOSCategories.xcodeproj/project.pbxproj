@@ -16,7 +16,7 @@
 		E8971B4A1D867CAF00B54775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8971B491D867CAF00B54775 /* Assets.xcassets */; };
 		E8971B4D1D867CAF00B54775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8971B4B1D867CAF00B54775 /* LaunchScreen.storyboard */; };
 		E8971B5B1D86868900B54775 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8971B5A1D86868900B54775 /* MainViewController.m */; };
-		E8971B641D8689E000B54775 /* UIView+LMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E8971B631D8689E000B54775 /* UIView+LMExtension.m */; };
+		E8971B641D8689E000B54775 /* UIView+LMFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E8971B631D8689E000B54775 /* UIView+LMFrameExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		E8971B4E1D867CAF00B54775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8971B591D86868900B54775 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		E8971B5A1D86868900B54775 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		E8971B621D8689E000B54775 /* UIView+LMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+LMExtension.h"; path = "../Categories/UIKit/UIView/UIView+LMExtension.h"; sourceTree = "<group>"; };
-		E8971B631D8689E000B54775 /* UIView+LMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+LMExtension.m"; path = "../Categories/UIKit/UIView/UIView+LMExtension.m"; sourceTree = "<group>"; };
+		E8971B621D8689E000B54775 /* UIView+LMFrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+LMFrameExtension.h"; path = "../Categories/UIKit/UIView/UIView+LMFrameExtension.h"; sourceTree = "<group>"; };
+		E8971B631D8689E000B54775 /* UIView+LMFrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+LMFrameExtension.m"; path = "../Categories/UIKit/UIView/UIView+LMFrameExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,8 @@
 		E8971B581D867D7000B54775 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				E8971B621D8689E000B54775 /* UIView+LMExtension.h */,
-				E8971B631D8689E000B54775 /* UIView+LMExtension.m */,
+				E8971B621D8689E000B54775 /* UIView+LMFrameExtension.h */,
+				E8971B631D8689E000B54775 /* UIView+LMFrameExtension.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E87D752B202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m in Sources */,
-				E8971B641D8689E000B54775 /* UIView+LMExtension.m in Sources */,
+				E8971B641D8689E000B54775 /* UIView+LMFrameExtension.m in Sources */,
 				E8971B421D867CAF00B54775 /* AppDelegate.m in Sources */,
 				E887172D203FB2A400E1CC13 /* UIButton+LMHitTestEdgeInsets.m in Sources */,
 				E8971B3F1D867CAF00B54775 /* main.m in Sources */,

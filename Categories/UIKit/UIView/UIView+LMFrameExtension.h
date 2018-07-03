@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (LMExtension)
+@interface UIView (LMFrameExtension)
 
 /** frame.origin.x */
 @property (nonatomic, assign) CGFloat   lm_x;

@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Lyman. All rights reserved.
 //
 
-#import "UIView+LMExtension.h"
+#import "UIView+LMFrameExtension.h"
 
-@implementation UIView (LMExtension)
+@implementation UIView (LMFrameExtension)
 
 #pragma mark - setter
 - (void)setLm_x:(CGFloat)lm_x {
