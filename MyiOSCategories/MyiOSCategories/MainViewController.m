@@ -24,6 +24,47 @@
     self.items = @{@"UIButton":@[@"LMHitTestEdgeInsetsDemoViewController"]};
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     self.tableView.tableFooterView = [UIView new];
+    
+    [self testArray];
+    [self testDict];
+    
+    [self testUnrecognizedSelector];
+}
+
+//- (void)mytest {
+//    NSLog(@"mytest");
+//}
+
+/// 未知方法测试
+- (void)testUnrecognizedSelector {
+    [self performSelector:@selector(mytest)];
+    
+    NSString *str = @"sdasd";//[NSNull new];
+
+    if (str.length) {
+        NSLog(@"%zd",str.length);
+    }
+}
+
+/// 数组越界测试
+- (void)testArray {
+    NSArray *array = @[@1,@2,@3];
+    NSMutableArray *mArray = [NSMutableArray arrayWithArray:array];
+    NSNumber *num = [mArray objectAtIndex:2];
+    NSLog(@"num = %@",num);
+}
+
+/// 字典设值测试
+- (void)testDict {
+    NSString *c;
+    //NSDictionary *dic = @{@"city":c};
+    
+    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:@{@"city":@"上海"}];
+    [dict setObject:@"dddd" forKey:@"city"];
+    NSLog(@"%@",dict);
+    
+    //NSMutableDictionary *dict = [NSMutableDictionary new];
+    //[dict setObject:nil forKey:@"city"];
 }
 
 - (void)didReceiveMemoryWarning {
