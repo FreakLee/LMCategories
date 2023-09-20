@@ -30,7 +30,7 @@
     }
 }
 
-- (id)lm_objectAtIndex:(NSUInteger)index{
+- (id)lm_objectAtIndex:(NSUInteger)index {
     if (index < self.count) {
         return [self lm_objectAtIndex:index];
     } else {
