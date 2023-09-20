@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E83197A72ABAA42F0059025D /* NSArray+LMSafeBound.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197A62ABAA42F0059025D /* NSArray+LMSafeBound.m */; };
-		E83197AE2ABABCF00059025D /* NSMutableArray+LMSafeBound.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197AD2ABABCF00059025D /* NSMutableArray+LMSafeBound.m */; };
 		E83197BD2ABACF510059025D /* NSMutableDictionary+LMSecuritySetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197B72ABAC0520059025D /* NSMutableDictionary+LMSecuritySetting.m */; };
 		E83197CC2ABADD3E0059025D /* NSObject+LMExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197C92ABADD3E0059025D /* NSObject+LMExchangeMethod.m */; };
 		E83197CD2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197CB2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m */; };
+		E83197E02ABAED140059025D /* NSMutableArray+LMSafeBound.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197DE2ABAED140059025D /* NSMutableArray+LMSafeBound.m */; };
+		E83197E12ABAED140059025D /* NSArray+LMSafeBound.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197DF2ABAED140059025D /* NSArray+LMSafeBound.m */; };
 		E87D752B202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D7529202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m */; };
 		E87D752C202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87D752A202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.xib */; };
 		E887172D203FB2A400E1CC13 /* UIButton+LMHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = E887172B203FB2A400E1CC13 /* UIButton+LMHitTestEdgeInsets.m */; };
@@ -25,16 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E83197A52ABAA42F0059025D /* NSArray+LMSafeBound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+LMSafeBound.h"; path = "../../Categories/Foundation/NSArray/NSArray+LMSafeBound.h"; sourceTree = "<group>"; };
-		E83197A62ABAA42F0059025D /* NSArray+LMSafeBound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LMSafeBound.m"; path = "../../Categories/Foundation/NSArray/NSArray+LMSafeBound.m"; sourceTree = "<group>"; };
-		E83197AC2ABABCF00059025D /* NSMutableArray+LMSafeBound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LMSafeBound.h"; sourceTree = "<group>"; };
-		E83197AD2ABABCF00059025D /* NSMutableArray+LMSafeBound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LMSafeBound.m"; sourceTree = "<group>"; };
 		E83197B62ABAC0520059025D /* NSMutableDictionary+LMSecuritySetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+LMSecuritySetting.h"; path = "../Categories/Foundation/NSDictionary/NSMutableDictionary+LMSecuritySetting.h"; sourceTree = "<group>"; };
 		E83197B72ABAC0520059025D /* NSMutableDictionary+LMSecuritySetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+LMSecuritySetting.m"; path = "../Categories/Foundation/NSDictionary/NSMutableDictionary+LMSecuritySetting.m"; sourceTree = "<group>"; };
 		E83197C82ABADD3E0059025D /* NSObject+LMSecureMessageSending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LMSecureMessageSending.h"; sourceTree = "<group>"; };
 		E83197C92ABADD3E0059025D /* NSObject+LMExchangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LMExchangeMethod.m"; sourceTree = "<group>"; };
 		E83197CA2ABADD3E0059025D /* NSObject+LMExchangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LMExchangeMethod.h"; sourceTree = "<group>"; };
 		E83197CB2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LMSecureMessageSending.m"; sourceTree = "<group>"; };
+		E83197DC2ABAED140059025D /* NSMutableArray+LMSafeBound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LMSafeBound.h"; sourceTree = "<group>"; };
+		E83197DD2ABAED140059025D /* NSArray+LMSafeBound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LMSafeBound.h"; sourceTree = "<group>"; };
+		E83197DE2ABAED140059025D /* NSMutableArray+LMSafeBound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LMSafeBound.m"; sourceTree = "<group>"; };
+		E83197DF2ABAED140059025D /* NSArray+LMSafeBound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LMSafeBound.m"; sourceTree = "<group>"; };
 		E87D7528202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMHitTestEdgeInsetsDemoViewController.h; path = MyiOSCategories/Demos/LMHitTestEdgeInsetsDemoViewController.h; sourceTree = "<group>"; };
 		E87D7529202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LMHitTestEdgeInsetsDemoViewController.m; path = MyiOSCategories/Demos/LMHitTestEdgeInsetsDemoViewController.m; sourceTree = "<group>"; };
 		E87D752A202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LMHitTestEdgeInsetsDemoViewController.xib; path = MyiOSCategories/Demos/LMHitTestEdgeInsetsDemoViewController.xib; sourceTree = "<group>"; };
@@ -65,17 +65,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E83197A42ABAA2FC0059025D /* NSArray */ = {
-			isa = PBXGroup;
-			children = (
-				E83197A52ABAA42F0059025D /* NSArray+LMSafeBound.h */,
-				E83197A62ABAA42F0059025D /* NSArray+LMSafeBound.m */,
-				E83197AC2ABABCF00059025D /* NSMutableArray+LMSafeBound.h */,
-				E83197AD2ABABCF00059025D /* NSMutableArray+LMSafeBound.m */,
-			);
-			path = NSArray;
-			sourceTree = "<group>";
-		};
 		E83197B22ABABED40059025D /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +84,18 @@
 			);
 			name = NSObject;
 			path = ../Categories/Foundation/NSObject;
+			sourceTree = "<group>";
+		};
+		E83197DB2ABAED140059025D /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				E83197DD2ABAED140059025D /* NSArray+LMSafeBound.h */,
+				E83197DF2ABAED140059025D /* NSArray+LMSafeBound.m */,
+				E83197DC2ABAED140059025D /* NSMutableArray+LMSafeBound.h */,
+				E83197DE2ABAED140059025D /* NSMutableArray+LMSafeBound.m */,
+			);
+			name = NSArray;
+			path = ../Categories/Foundation/NSArray;
 			sourceTree = "<group>";
 		};
 		E87D7524202BE57C00BF995D /* UIButton */ = {
@@ -179,9 +180,9 @@
 		E8971B571D867D5900B54775 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E83197DB2ABAED140059025D /* NSArray */,
 				E83197C72ABADD3E0059025D /* NSObject */,
 				E83197B22ABABED40059025D /* NSDictionary */,
-				E83197A42ABAA2FC0059025D /* NSArray */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -268,14 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83197AE2ABABCF00059025D /* NSMutableArray+LMSafeBound.m in Sources */,
-				E83197A72ABAA42F0059025D /* NSArray+LMSafeBound.m in Sources */,
 				E87D752B202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m in Sources */,
 				E8971B641D8689E000B54775 /* UIView+LMFrameExtension.m in Sources */,
 				E83197CC2ABADD3E0059025D /* NSObject+LMExchangeMethod.m in Sources */,
 				E83197CD2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m in Sources */,
+				E83197E12ABAED140059025D /* NSArray+LMSafeBound.m in Sources */,
 				E8971B421D867CAF00B54775 /* AppDelegate.m in Sources */,
 				E887172D203FB2A400E1CC13 /* UIButton+LMHitTestEdgeInsets.m in Sources */,
+				E83197E02ABAED140059025D /* NSMutableArray+LMSafeBound.m in Sources */,
 				E8971B3F1D867CAF00B54775 /* main.m in Sources */,
 				E8971B5B1D86868900B54775 /* MainViewController.m in Sources */,
 				E83197BD2ABACF510059025D /* NSMutableDictionary+LMSecuritySetting.m in Sources */,
