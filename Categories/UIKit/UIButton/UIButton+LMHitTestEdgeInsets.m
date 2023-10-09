@@ -31,7 +31,7 @@ static NSString const *LMKEY_HIT_TEST_EDGE_INSETS = @"LMHitTestEdgeInsets";
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
     
-    if (UIEdgeInsetsEqualToEdgeInsets(self.lm_hitTestEdgeInsets, UIEdgeInsetsZero) || !self.enabled || self.hidden) {
+    if (UIEdgeInsetsEqualToEdgeInsets(self.lm_hitTestEdgeInsets, UIEdgeInsetsZero) || !self.enabled || self.hidden || self.alpha <= 0.01) {
         return [super pointInside:point withEvent:event];
     }
     
