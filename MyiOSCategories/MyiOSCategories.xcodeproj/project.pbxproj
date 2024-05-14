@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		E83197CC2ABADD3E0059025D /* NSObject+LMExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197C92ABADD3E0059025D /* NSObject+LMExchangeMethod.m */; };
 		E83197CD2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m in Sources */ = {isa = PBXBuildFile; fileRef = E83197CB2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m */; };
+		E86D1B3A2BF312280044F7A7 /* NSDictionary+LMFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = E86D1B322BF312280044F7A7 /* NSDictionary+LMFunctional.m */; };
+		E86D1B3B2BF312280044F7A7 /* NSSet+LMFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = E86D1B362BF312280044F7A7 /* NSSet+LMFunctional.m */; };
+		E86D1B3C2BF312280044F7A7 /* NSArray+LMFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = E86D1B382BF312280044F7A7 /* NSArray+LMFunctional.m */; };
+		E86D1B3F2BF3133F0044F7A7 /* LMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E86D1B3D2BF3133F0044F7A7 /* LMPerson.m */; };
 		E87D752B202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D7529202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m */; };
 		E87D752C202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87D752A202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.xib */; };
 		E887172D203FB2A400E1CC13 /* UIButton+LMHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = E887172B203FB2A400E1CC13 /* UIButton+LMHitTestEdgeInsets.m */; };
@@ -26,6 +30,14 @@
 		E83197C92ABADD3E0059025D /* NSObject+LMExchangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LMExchangeMethod.m"; sourceTree = "<group>"; };
 		E83197CA2ABADD3E0059025D /* NSObject+LMExchangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LMExchangeMethod.h"; sourceTree = "<group>"; };
 		E83197CB2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LMSecureMessageSending.m"; sourceTree = "<group>"; };
+		E86D1B322BF312280044F7A7 /* NSDictionary+LMFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LMFunctional.m"; sourceTree = "<group>"; };
+		E86D1B332BF312280044F7A7 /* NSDictionary+LMFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LMFunctional.h"; sourceTree = "<group>"; };
+		E86D1B352BF312280044F7A7 /* NSSet+LMFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+LMFunctional.h"; sourceTree = "<group>"; };
+		E86D1B362BF312280044F7A7 /* NSSet+LMFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+LMFunctional.m"; sourceTree = "<group>"; };
+		E86D1B382BF312280044F7A7 /* NSArray+LMFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LMFunctional.m"; sourceTree = "<group>"; };
+		E86D1B392BF312280044F7A7 /* NSArray+LMFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LMFunctional.h"; sourceTree = "<group>"; };
+		E86D1B3D2BF3133F0044F7A7 /* LMPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPerson.m; sourceTree = "<group>"; };
+		E86D1B3E2BF3133F0044F7A7 /* LMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPerson.h; sourceTree = "<group>"; };
 		E87D7528202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMHitTestEdgeInsetsDemoViewController.h; path = MyiOSCategories/Demos/LMHitTestEdgeInsetsDemoViewController.h; sourceTree = "<group>"; };
 		E87D7529202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LMHitTestEdgeInsetsDemoViewController.m; path = MyiOSCategories/Demos/LMHitTestEdgeInsetsDemoViewController.m; sourceTree = "<group>"; };
 		E87D752A202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LMHitTestEdgeInsetsDemoViewController.xib; path = MyiOSCategories/Demos/LMHitTestEdgeInsetsDemoViewController.xib; sourceTree = "<group>"; };
@@ -68,6 +80,36 @@
 			path = ../Categories/Foundation/NSObject;
 			sourceTree = "<group>";
 		};
+		E86D1B312BF312280044F7A7 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				E86D1B332BF312280044F7A7 /* NSDictionary+LMFunctional.h */,
+				E86D1B322BF312280044F7A7 /* NSDictionary+LMFunctional.m */,
+			);
+			name = NSDictionary;
+			path = ../Categories/Foundation/NSDictionary;
+			sourceTree = "<group>";
+		};
+		E86D1B342BF312280044F7A7 /* NSSet */ = {
+			isa = PBXGroup;
+			children = (
+				E86D1B352BF312280044F7A7 /* NSSet+LMFunctional.h */,
+				E86D1B362BF312280044F7A7 /* NSSet+LMFunctional.m */,
+			);
+			name = NSSet;
+			path = ../Categories/Foundation/NSSet;
+			sourceTree = "<group>";
+		};
+		E86D1B372BF312280044F7A7 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				E86D1B392BF312280044F7A7 /* NSArray+LMFunctional.h */,
+				E86D1B382BF312280044F7A7 /* NSArray+LMFunctional.m */,
+			);
+			name = NSArray;
+			path = ../Categories/Foundation/NSArray;
+			sourceTree = "<group>";
+		};
 		E87D7524202BE57C00BF995D /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +144,8 @@
 				E8971B411D867CAF00B54775 /* AppDelegate.m */,
 				E8971B591D86868900B54775 /* MainViewController.h */,
 				E8971B5A1D86868900B54775 /* MainViewController.m */,
+				E86D1B3E2BF3133F0044F7A7 /* LMPerson.h */,
+				E86D1B3D2BF3133F0044F7A7 /* LMPerson.m */,
 				E8971B461D867CAF00B54775 /* Main.storyboard */,
 				E8971B491D867CAF00B54775 /* Assets.xcassets */,
 				E8971B4B1D867CAF00B54775 /* LaunchScreen.storyboard */,
@@ -150,6 +194,9 @@
 		E8971B571D867D5900B54775 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E86D1B372BF312280044F7A7 /* NSArray */,
+				E86D1B312BF312280044F7A7 /* NSDictionary */,
+				E86D1B342BF312280044F7A7 /* NSSet */,
 				E83197C72ABADD3E0059025D /* NSObject */,
 			);
 			name = Foundation;
@@ -237,12 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86D1B3C2BF312280044F7A7 /* NSArray+LMFunctional.m in Sources */,
+				E86D1B3F2BF3133F0044F7A7 /* LMPerson.m in Sources */,
 				E87D752B202BEBBE00BF995D /* LMHitTestEdgeInsetsDemoViewController.m in Sources */,
+				E86D1B3A2BF312280044F7A7 /* NSDictionary+LMFunctional.m in Sources */,
 				E8971B641D8689E000B54775 /* UIView+LMFrameExtension.m in Sources */,
 				E83197CC2ABADD3E0059025D /* NSObject+LMExchangeMethod.m in Sources */,
 				E83197CD2ABADD3E0059025D /* NSObject+LMSecureMessageSending.m in Sources */,
 				E8971B421D867CAF00B54775 /* AppDelegate.m in Sources */,
 				E887172D203FB2A400E1CC13 /* UIButton+LMHitTestEdgeInsets.m in Sources */,
+				E86D1B3B2BF312280044F7A7 /* NSSet+LMFunctional.m in Sources */,
 				E8971B3F1D867CAF00B54775 /* main.m in Sources */,
 				E8971B5B1D86868900B54775 /* MainViewController.m in Sources */,
 			);
